@@ -133,7 +133,7 @@ class MenuProvider extends Component {
                [event.target.name]: event.target.value,
                selectValue: find,
             });
-        })
+        });
         // ()=> {
         //     console.log(this.state.selectValue);
         //     // console.log(this.state.inputValue);
