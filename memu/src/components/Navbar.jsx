@@ -8,13 +8,13 @@ export class Navbar extends Component {
             <div className="navbar navbar-collapsed navbar-expand-lg bg-info navbar-dark px-sm-5">
                 <div></div>
                     <NavText>
-                    <Link to="/" className="navbar-brand-hover text-light">Home</Link>
+                    <Link to="/" className="navbar-brand-hover text-light">食事</Link>
                     </NavText>
 
                     <ul className="navbar-nav align-items-center">
                         <li className="nav-item ml-5">
                             <NavText  >
-                            <Link to="/" className="nav-link-hover text-light">メニュー</Link> 
+                            <Link to="/2" className="nav-link-hover text-light">ドリンク</Link> 
                             </NavText>
                         </li>
                     </ul>
